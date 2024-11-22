@@ -4,9 +4,9 @@
 @tailwind utilities;
 
 body {
-    @apply w-full h-full bg-[#d7c4a1] dark-blue-text center-all overflow-x-hidden
+    @apply w-full h-full bg-white dark-blue-text center-all overflow-x-hidden
 }
-
+/* bg-[#d7c4a1] */
 * {
     @apply m-0 p-0;
   }
@@ -91,7 +91,7 @@ body {
     }
 
     .avatar {
-      @apply w-[100px] h-[100px] rounded-full absolute bottom-4 right-4 md:bottom-[-30px] md:right-[-30px] border-[6px] border-solid border-[#d7c4a1] z-10 bg-center bg-cover bg-no-repeat
+      @apply w-[100px] h-[100px] rounded-full absolute bottom-4 right-4 md:bottom-[-30px] md:right-[-30px] border-[6px] border-solid border-white z-10 bg-center bg-cover bg-no-repeat
     }
 
     /* career */

@@ -1,5 +1,5 @@
 <template>
-    <div class="relative top-0 bg-[url('https://img.freepik.com/free-photo/close-up-justice-statue_23-2151889549.jpg?t=st=1732052676~exp=1732056276~hmac=746b8ed6e68044a387f924e226a7790c8a1a10da7fdef8a1b5400ce9a043aa30&w=996')] bg-cover bg-center">
+    <div class="relative top-0 bg-[url('https://leadership.ng/wp-content/uploads/2023/03/Symbol-of-law-and-justice-court-750x536.png')] bg-cover bg-center">
         <!-- <div class="w-full z-10 fixed top-0"> -->
             <!-- <img class="w-[300px] absolute left-10 top-[-100px]" src="/public/logo.svg" alt=""> -->
         <!-- </div> -->

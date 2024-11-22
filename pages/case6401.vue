@@ -1,6 +1,9 @@
 <template>
     <div class="grid place-items-center p-3 md:p-10">
         <div class="mb-4 md:w-7/12 w-full">
+            <NuxtLink to="/" class="text-[20px] font-bold p-2 rounded border hover:border-blue-400"> <- Go Back</NuxtLink>
+            <br>
+            <br>
             <div class="flex justify-between">
             <div class="flex items-center gap-1">
                 <div class="rounded-full w-[14px] h-[14px] bg-red-500"></div>
