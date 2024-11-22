@@ -4,12 +4,12 @@
             <NuxtLink to="/" class="text-[20px] font-bold p-2 rounded border hover:border-blue-400"> <- Go Back</NuxtLink>
             <br>
             <br>
-            <div class="flex justify-between">
+            <div class="flex justify-between flex-col md:flex-row">
             <div class="flex items-center gap-1">
                 <div class="rounded-full w-[14px] h-[14px] bg-red-500"></div>
-                <p><b>Case Status:</b> ON HOLD</p>
+                <p><b class="font-black">Case Status:</b> ON HOLD</p>
             </div>
-            <p><b>Firm Legal Fee:</b> <span class="text-[30px]">$2000</span></p>
+            <p><b class="font-black">Firm Legal Fee:</b> <span class="text-[40px] font-black">$2000</span></p>
             </div>
             <p><b class="font-black">NOTE: </b>Our Legal Team will proceed to the next phase for the case (Call To Court Order) after the Firm Legal Fee has been paid. For maximum representation, kindly make your payment before the call to court.</p>
         </div>
@@ -79,12 +79,12 @@
 
 <style>
 h3 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: black;
     text-transform: uppercase;
 }
 
 h5,p {
-    font-size: 18px;
+    font-size: 20px;
 }
 </style>
