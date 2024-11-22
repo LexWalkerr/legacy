@@ -1,0 +1,114 @@
+/* assets/css/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply w-full h-full bg-[#d7c4a1] dark-blue-text center-all overflow-x-hidden
+}
+
+* {
+    @apply m-0 p-0;
+  }
+  
+  p {
+    @apply leading-loose text-[18px] font-light
+  }
+  
+  @layer components {
+    
+    .dark-blue-text {
+      @apply text-[#140e3d]
+    }
+
+    .dark-blue-bg {
+      @apply bg-[#140e3d]
+    }
+
+    .light-blue-text {
+      @apply text-[#3c2f0e]
+    }
+
+    .light-blue-bg {
+      @apply bg-[#dbd7f1]
+    }
+
+    /* general */
+    .container {
+      @apply max-w-full center-all md:py-10 p-4 md:p-10 overflow-hidden
+    }
+
+    .section {
+        @apply h-full w-full
+    }
+
+    .section-grid {
+      @apply w-full
+    }
+
+    .section-img {
+      @apply w-full h-[300px] md:h-[400px] rounded-3xl bg-gray-800 overflow-hidden bg-center bg-cover
+    }
+
+    .sec-text {
+      @apply md:grid flex flex-col gap-2 md:grid-cols-2 w-full mt-4
+    }
+
+    .center-all {
+      @apply grid place-items-center place-content-center
+    }
+
+    /* text */
+    .bold-text-lg {
+      @apply font-black text-[40px] md:text-[56px] leading-tight
+    }
+
+    .bold-text-md {
+      @apply font-bold text-[32px] md:text-[40px]
+    }
+
+    .bold-text-sm {
+      @apply font-bold text-[24px] uppercase md:tracking-[3px]
+    }
+
+    .medium-text-md {
+      @apply text-[20px] font-medium capitalize light-blue-text
+    }
+
+    .light-text {
+      @apply font-thin
+    }
+    
+
+    /* buttons */
+    .landing-page-btn {
+      @apply py-3 px-10 bg-[#392909b4] hover:bg-[#39290954] light-blue-text rounded-md mt-6 transition duration-300 ease-in-out border-none
+    }
+
+    /* testimonials */
+    .text-container {
+      @apply w-full min-h-[300px] p-4 md:p-10 relative overflow-hidden bg-[#39290928] rounded-3xl
+    }
+
+    .avatar {
+      @apply w-[100px] h-[100px] rounded-full absolute bottom-4 right-4 md:bottom-[-30px] md:right-[-30px] border-[6px] border-solid border-[#d7c4a1] z-10 bg-center bg-cover bg-no-repeat
+    }
+
+    /* career */
+
+    .job-wrapper {
+      @apply p-4 shadow-md rounded-3xl h-auto border-[4px] transition duration-300 ease-in-out
+    }
+
+    .job-title {
+      @apply  flex gap-4 justify-between items-center content-center
+    }
+
+    .job-title-btn {
+      @apply border border-[#140e3d] rounded-3xl p-4 text-sm block min-w-[120px]
+    }
+
+    .footer {
+      @apply container w-full p-4 flex flex-col md:flex-row justify-center text-sm
+    }
+  }
