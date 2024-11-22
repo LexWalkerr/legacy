@@ -1,12 +1,12 @@
 <template>
-    <div class="relative top-0 bg-[url('https://leadership.ng/wp-content/uploads/2023/03/Symbol-of-law-and-justice-court-750x536.png')] bg-cover bg-center">
+    <div class="parent-container grid place-items-center relative top-0 bg-[url('https://leadership.ng/wp-content/uploads/2023/03/Symbol-of-law-and-justice-court-750x536.png')] bg-cover bg-center">
         <!-- <div class="w-full z-10 fixed top-0"> -->
             <!-- <img class="w-[300px] absolute left-10 top-[-100px]" src="/public/logo.svg" alt=""> -->
         <!-- </div> -->
         <div class="absolute bg-gradient-to-l from-[#567bc4] to-[#89a6e072] top-0 left-0 w-full h-full"></div>
 
-        <div class="h-[100vh] grid place-items-center">
-            <div class="z-10 bg-white/60 rounded grid place-items-center m-0 md:p-10 p-4">
+        <div class="grid place-items-center">
+            <div class="z-10 bg-white/60 p-4 md:p-10 rounded grid place-items-center m-0">
                 <div class="grid place-items-start m-0">
                 <svg width="470" height="146.35226953587792" viewBox="0 0 350.00000000000006 129.3517533776699" class="looka-1j8o68f"><defs id="SvgjsDefs2126">
                     <linearGradient id="SvgjsLinearGradient2131">
@@ -26,10 +26,10 @@
                 </div>
                 <br>
                 <!-- <h2 class="text-[50px] font-black" data-aos="fade-right" data-aos-duration="1400">Legacy Legal Group</h2> -->
-                <p class="text-[20px] md:w-8/12 mt-2 font-light text-center" data-aos="fade-left">We are committed to protecting your rights, delivering justice, and achieving the results you deserve.</p>
+                <p class="text-[20px] mt-2 font-light text-center" data-aos="fade-left">We are committed to protecting your rights, delivering justice, and achieving the results you deserve.</p>
                 <!-- <button class="landing-page-btn">Open a case</button> -->
 
-                <form class="flex justify-start mt-10 max-w-sm" @submit.prevent="handleButtonClick">
+                <form class="flex mt-10 max-w-sm" @submit.prevent="handleButtonClick">
                     <div class="relative w-full">
                       <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                         <svg
@@ -115,4 +115,16 @@ export default {
             font-size: 16px;
             margin-top: 10px;
         }
+
+        .parent-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevent overflow */
+  }
+  svg {
+    max-width: 100%;
+    height: auto;
+  }
+
 </style>
