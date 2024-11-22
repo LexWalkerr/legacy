@@ -12,6 +12,8 @@
             <p><b class="font-black">Firm Legal Fee:</b> <span class="text-[40px] font-black">$2000</span></p>
             </div>
             <p><b class="font-black">NOTE: </b>Our Legal Team will proceed to the next phase for the case (Call To Court Order) after the Firm Legal Fee has been paid. For maximum representation, kindly make your payment before the call to court.</p>
+            <br>
+            <p class="uppercase text-red-600 font-black"><b class="font-black text-[24px]">Deadline (Dec 1st, 2024):</b> The court will impose a financial penalty on Plaintiff for wasting Judicial resources if Plaintiff refuse to appear with Legal Representative upon Court Order.</p>
         </div>
 
         <div class="w-full md:w-8/12 gap-4">
